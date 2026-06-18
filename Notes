@@ -1,1 +1,303 @@
-Notes
+# Fundamentos de Cibersegurança
+
+## Visão Geral
+
+Cibersegurança é o conjunto de práticas, tecnologias e processos utilizados para proteger pessoas, dispositivos, sistemas e informações contra ameaças digitais.
+
+Hoje dependemos da internet para praticamente tudo: comunicação, estudos, trabalho, compras, entretenimento e serviços bancários. Por isso, proteger dados e sistemas tornou-se uma necessidade tanto para indivíduos quanto para empresas e governos.
+
+---
+
+## O que a Cibersegurança Protege?
+
+A proteção não se limita apenas a computadores.
+
+A cibersegurança busca proteger:
+
+* Dados pessoais e corporativos
+* Dispositivos (celulares, notebooks e computadores)
+* Redes de comunicação
+* Aplicativos e sistemas
+* Serviços online
+
+O objetivo é impedir acessos não autorizados, vazamentos, alterações indevidas e interrupções de serviços.
+
+---
+
+## Os Três Pilares da Segurança da Informação
+
+Toda estratégia de segurança é baseada em três princípios fundamentais:
+
+
+### Confidencialidade
+
+Garantir que apenas pessoas autorizadas tenham acesso às informações.
+
+**Exemplo:** impedir que terceiros acessem uma conta bancária.
+
+
+### Integridade
+
+Garantir que os dados permaneçam corretos e não sejam alterados indevidamente.
+
+**Exemplo:** uma nota escolar não pode ser modificada sem autorização.
+
+
+### Disponibilidade
+
+Garantir que sistemas e informações estejam acessíveis quando forem necessários.
+
+**Exemplo:** um site bancário deve permanecer funcionando para seus clientes.
+
+
+Esses três pilares formam a chamada **Tríade CIA (Confidentiality, Integrity and Availability)**.
+
+---
+
+## Dados Pessoais e LGPD
+
+Dados pessoais são informações capazes de identificar uma pessoa, como nome, CPF, telefone, endereço ou e-mail.
+
+A Lei Geral de Proteção de Dados (LGPD) foi criada para garantir mais controle sobre essas informações.
+
+Entre os principais direitos garantidos pela LGPD estão:
+
+* Saber quais dados uma empresa possui sobre você
+* Solicitar correções
+* Solicitar exclusão dos dados
+* Revogar consentimentos concedidos anteriormente
+
+A fiscalização da LGPD é realizada pela ANPD (Autoridade Nacional de Proteção de Dados).
+
+---
+
+## Ameaças e Ataques Cibernéticos
+
+Um ataque cibernético é qualquer tentativa de comprometer sistemas, dados ou usuários.
+
+Os objetivos mais comuns são:
+
+* Roubo de informações
+* Aplicação de golpes
+* Espionagem
+* Interrupção de serviços
+* Obtenção de acesso não autorizado
+
+Os ataques podem ser realizados por criminosos, grupos organizados, insiders ou softwares maliciosos.
+
+---
+
+## Malware
+
+Malware é qualquer software criado para causar danos ou obter vantagens indevidas.
+
+### Vírus
+
+Infecta arquivos e programas, espalhando-se entre sistemas.
+
+### Trojan (Cavalo de Troia)
+
+Disfarça-se como um programa legítimo para enganar a vítima.
+
+Exemplos comuns:
+
+* Programas piratas
+* Cracks
+* Aplicativos falsos
+
+### Spyware
+
+Programa espião que coleta informações sem autorização.
+
+Pode capturar:
+
+* Senhas
+* Mensagens
+* Histórico de navegação
+* Dados pessoais
+
+### Ransomware
+
+Sequestra arquivos através de criptografia e exige pagamento para devolvê-los.
+
+É uma das ameaças mais perigosas para empresas.
+
+---
+
+## Engenharia Social
+
+Nem todos os ataques exploram falhas técnicas.
+
+Muitos exploram falhas humanas.
+
+Engenharia social é a manipulação psicológica utilizada para convencer uma pessoa a fornecer informações ou realizar ações que favoreçam o atacante.
+
+Os criminosos costumam explorar:
+
+* Medo
+* Urgência
+* Curiosidade
+* Confiança
+
+Por isso, o fator humano é uma das partes mais importantes da segurança.
+
+---
+
+## Phishing
+
+Phishing é um tipo de golpe que tenta enganar a vítima para roubar informações.
+
+Geralmente ocorre através de:
+
+* E-mails falsos
+* SMS falsos
+* Mensagens em redes sociais
+* Sites clonados
+
+O objetivo normalmente é obter:
+
+* Senhas
+* Dados bancários
+* Informações pessoais
+
+Antes de clicar em qualquer link, é importante verificar a origem da mensagem.
+
+---
+
+## DDoS
+
+Um ataque DDoS (Distributed Denial of Service) ocorre quando milhares de dispositivos realizam acessos simultâneos a um serviço.
+
+O objetivo não é roubar dados, mas tornar o sistema indisponível.
+
+Empresas costumam utilizar monitoramento de rede, firewalls e soluções específicas para reduzir esse tipo de ataque.
+
+---
+
+## Firewall e Proxy
+
+### Firewall
+
+Funciona como um porteiro digital.
+
+Sua função é controlar quais conexões podem entrar ou sair de uma rede.
+
+### Proxy
+
+Funciona como um intermediário entre o usuário e a internet.
+
+Além de auxiliar no controle de acesso, pode ocultar informações sobre quem está realizando a conexão.
+
+**Resumo rápido:**
+
+* Firewall = controla conexões.
+* Proxy = intermedia conexões.
+
+---
+
+## Criptografia
+
+Criptografia é a técnica utilizada para transformar informações em códigos compreensíveis apenas para pessoas autorizadas.
+
+Ela está presente diariamente em:
+
+* Aplicativos de mensagens
+* Compras online
+* Sistemas bancários
+* Redes corporativas
+
+### Criptografia Simétrica
+
+Utiliza a mesma chave para criptografar e descriptografar os dados.
+
+**Vantagem:** rápida.
+
+**Desvantagem:** a chave precisa ser compartilhada de forma segura.
+
+### Criptografia Assimétrica
+
+Utiliza duas chaves:
+
+* Chave pública
+* Chave privada
+
+**Vantagem:** mais segura para troca de informações.
+
+**Desvantagem:** mais lenta.
+
+---
+
+## Segurança no Dia a Dia
+
+Boas práticas de segurança:
+
+* Manter sistemas atualizados
+* Utilizar autenticação multifator (MFA)
+* Fazer backups regularmente
+* Utilizar senhas fortes
+* Baixar programas apenas de fontes confiáveis
+* Evitar Wi-Fi público para operações sensíveis
+* Desconfiar de mensagens e links inesperados
+
+A maioria dos ataques bem-sucedidos explora erros humanos, não falhas tecnológicas.
+
+---
+
+## Gerenciamento de Riscos
+
+Segurança não significa eliminar todos os riscos.
+
+O objetivo é identificar, avaliar e reduzir os riscos mais importantes.
+
+Etapas:
+
+1. Identificar o risco.
+2. Avaliar sua gravidade.
+3. Definir uma resposta.
+4. Monitorar continuamente.
+
+Essa abordagem ajuda a proteger os ativos mais importantes de forma eficiente.
+
+---
+
+## Áreas da Cibersegurança
+
+### Blue Team
+
+Equipe defensiva responsável por monitoramento, detecção e resposta a incidentes.
+
+### Red Team
+
+Equipe ofensiva responsável por simular ataques e identificar vulnerabilidades.
+
+### Purple Team
+
+Integra Red Team e Blue Team para melhorar continuamente a segurança.
+
+### GRC
+
+Governança, Gestão de Riscos, Compliance e Privacidade.
+
+### DevSecOps
+
+Integra segurança ao desenvolvimento de software.
+
+### Cloud Security
+
+Proteção de ambientes em nuvem.
+
+### Threat Intelligence
+
+Análise de ameaças, atacantes e campanhas maliciosas.
+
+### Segurança em IA
+
+Proteção de sistemas de Inteligência Artificial e seus modelos.
+
+---
+
+## Resumo Final
+
+A cibersegurança busca proteger pessoas, dados, dispositivos e sistemas contra ameaças digitais. 
+Sua eficácia depende da combinação de tecnologia, processos e conscientização dos usuários. 
+Entender conceitos como malware, phishing, criptografia, LGPD e gerenciamento de riscos é a base para qualquer profissional que deseja atuar na área. 🚀
